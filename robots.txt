@@ -1,2 +1,3 @@
 User-agent: *
 Allow: /
+Sitemap: https://hasboi.github.io/tomatonator/sitemap.xml

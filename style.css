@@ -171,6 +171,11 @@ button:active,
 	bottom: 20px;
 }
 
+.credit {
+	font-size: 32px;
+	font-weight: bold;
+}
+
 .downloads .btnImitation {
 	text-align: center;
 	max-width: fit-content;

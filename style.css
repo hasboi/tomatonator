@@ -5,6 +5,13 @@
 	user-select: none;
 }
 
+@font-face {
+	font-family: "Comic Sans MS";
+	src: url("Comic\ Sans\ MS.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
 input[type="checkbox"] {
 	appearance: none;
 	-webkit-appearance: none;
@@ -12,7 +19,9 @@ input[type="checkbox"] {
 }
 
 html {
-	font-family: "Comic Sans MS", handwriting, sans-serif;
+	font-family: "Comic Sans MS", system-ui, -apple-system, BlinkMacSystemFont,
+		"Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+		sans-serif;
 	overflow: hidden;
 }
 

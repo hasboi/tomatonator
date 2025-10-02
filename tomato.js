@@ -34,7 +34,8 @@ const interactiveSelector = [
 
 function throwTomato(posX, posY) {
 	const tomato = document.createElement("img");
-	tomato.src = "tomaot.gif?cache=" + Date.now();
+	tomato.src = "";
+	tomato.src = "tomaot.webp?cache=" + Date.now();
 	tomato.className = "tomato";
 	tomato.style.left = posX + "px";
 	tomato.style.top = posY + "px";

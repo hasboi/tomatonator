@@ -166,9 +166,14 @@ button:active,
 	gap: 10px;
 }
 
-#extras button {
+#extras .downloads {
 	position: absolute;
 	bottom: 20px;
+}
+
+.downloads .btnImitation {
+	text-align: center;
+	max-width: fit-content;
 }
 
 @keyframes dissolve {
@@ -213,6 +218,11 @@ button:active,
 		white-space: nowrap;
 		margin: 0 0.25rem;
 		max-width: fit-content;
+	}
+
+	#extras .downloads {
+		position: relative;
+		bottom: 0;
 	}
 }
 

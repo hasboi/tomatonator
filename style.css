@@ -61,6 +61,7 @@ body {
 	pointer-events: none;
 	user-select: none;
 	z-index: 1;
+	border: none;
 	display: block;
 }
 
@@ -191,11 +192,6 @@ button:active,
 }
 
 @media screen and (max-width: 900px) {
-	#targetImg,
-	#container.has-image img {
-		margin: 0 0 150px 0;
-	}
-
 	#options {
 		position: absolute;
 		bottom: 0;

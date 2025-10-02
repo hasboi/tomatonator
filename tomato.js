@@ -70,14 +70,10 @@ document.addEventListener("DOMContentLoaded", () => {
 			extraBtn.innerText = "back";
 			tomatoScreen.style.display = "none";
 			extraScreen.style.display = "flex";
-			useJohn.classList.add("disabled");
-			targetLabel.classList.add("disabled");
 		} else {
-			extraBtn.innerText = "extras";
+			extraBtn.innerText = "settings";
 			tomatoScreen.style.display = "flex";
 			extraScreen.style.display = "none";
-			useJohn.classList.remove("disabled");
-			targetLabel.classList.remove("disabled");
 		}
 	});
 
@@ -104,7 +100,7 @@ document.addEventListener("DOMContentLoaded", () => {
 		e.stopPropagation();
 		isThrowing = !isThrowing;
 		document.body.style.cursor = isThrowing ? "crosshair" : "default";
-		throwToggle.innerText = isThrowing ? "cease fire" : "trow tomato >:)";
+		throwToggle.innerText = isThrowing ? "ceasefire" : "trow tomato >:)";
 	});
 
 	document.addEventListener("click", (e) => {

@@ -182,7 +182,7 @@ button:active,
 	}
 }
 .tomato.dissolve {
-	animation: dissolve 1s forwards;
+	animation: dissolve 1s forwards linear;
 }
 
 .disabled,

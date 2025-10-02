@@ -42,8 +42,8 @@ body {
 #container.has-image img {
 	position: absolute;
 	inset: 0;
-	margin: auto;
 	width: 100%;
+	margin: auto;
 	height: 90%;
 	object-fit: contain;
 	object-position: center;
@@ -181,6 +181,11 @@ button:active,
 }
 
 @media screen and (max-width: 900px) {
+	#targetImg,
+	#container.has-image img {
+		margin: 0 0 150px 0;
+	}
+
 	#options {
 		position: absolute;
 		bottom: 0;

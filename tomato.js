@@ -158,7 +158,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 		imageContainer.style.display = "block";
 
-		imageContainer.src = "john.jpg";
+		imageContainer.src = "john.jpeg";
 		removeTarget.innerText = "put ungrateful john back to jail";
 
 		useJohn.classList.add("disabled");
@@ -167,6 +167,7 @@ document.addEventListener("DOMContentLoaded", () => {
 	});
 
 	removeTarget.addEventListener("click", () => {
+		imageContainer.style.display = "none";
 		container.classList.remove("has-image");
 
 		imageContainer.src = "";
